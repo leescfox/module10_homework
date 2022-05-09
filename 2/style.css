@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background: rgb(22, 174, 201);
+    color: #fff;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.button:active {
+    background: black;
+    box-shadow: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
